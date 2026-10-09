@@ -1,0 +1,6 @@
+{
+  "name": "cc-wt-gc",
+  "description": "The wt-gc mod for Claude Code.",
+  "owner": { "name": "AliakbarNateghi" },
+  "plugins": [{ "name": "wt-gc", "source": "./" }]
+}

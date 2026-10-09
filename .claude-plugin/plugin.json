@@ -1,0 +1,14 @@
+{
+  "name": "wt-gc",
+  "version": "0.1.0",
+  "description": "/wt-gc lists git worktrees with their PR/merge status; /wt-gc prune removes clean merged or closed ones.",
+  "author": { "name": "AliakbarNateghi" },
+  "userConfig": {
+    "defaultBranch": {
+      "type": "string",
+      "title": "Default branch",
+      "description": "Branch to check merges against. Empty = origin/HEAD, else main.",
+      "default": ""
+    }
+  }
+}
